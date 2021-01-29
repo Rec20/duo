@@ -1,0 +1,161 @@
+body{
+	background-color: #f5f8fa;
+	font-family: serif;
+	touch-action: none;
+}
+
+#main{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	height: 90vh;
+}
+.col-6 {
+	padding: 0;
+}
+
+/* TOP */
+#top{
+	display: block;
+}
+#top_title{
+	text-align: center;
+	font-size: 8vw;
+	font-weight: bold;
+	margin-top: 20vh;
+	height: 40vh;
+}
+#top_start{
+	width: 40vw;
+	height: 25vh;
+	text-align: center;
+	font-size: 3vh;
+	padding-top: 10vh;
+	font-weight: bold;
+	margin-left: 10vw; 
+}
+#top_continue{
+	width: 40vw;
+	height: 25vh;
+	text-align: center;
+	font-size: 3vh;
+	padding-top: 10vh;
+	font-weight: bold;
+	margin-left: 3vw;
+}
+
+/* QUESTION */
+#question{
+	display: none;
+}
+#question_ja{
+	height: 35vh;
+	font-size: 4vh;
+	margin: 1vh;
+	padding: 1vh;
+	background-color: white;
+	border-radius: 1vh;
+}
+#question_en{
+	height: 35vh;
+	font-size: 4vh;
+	margin: 1vh;
+	padding: 1vh;
+	background-color: white;
+	border-radius: 1vh;
+}
+.question_button{
+	padding: 1vh;
+}
+#question_top{
+	height: 10vh;
+	width: 27vw;
+	text-align: center;
+	font-size: 2vh;
+	padding-top: 3vh;
+	margin-left: 3vw;
+	font-weight: bold;
+}
+#question_hint{
+	height: 10vh;
+	width: 27vw;
+	text-align: center;
+	font-size: 2vh;
+	padding-top: 3vh;
+	margin-left: 3vw;
+	font-weight: bold;
+}
+#question_answer{
+	height: 10vh;
+	width: 27vw;
+	text-align: center;
+	font-size: 2vh;
+	padding-top: 3vh;
+	margin-left: 2vw;
+	font-weight: bold;
+}
+
+/* ANSWER */
+#answer{
+	display: none;
+}
+#answer_ja{
+	height: 35vh;
+	font-size: 4vh;
+	margin: 1vh;
+	padding: 1vh;
+	background-color: white;
+	border-radius: 1vh;
+}
+#answer_en{
+	height: 35vh;
+	font-size: 4vh;
+	margin: 1vh;
+	padding: 1vh;
+	background-color: white;
+	border-radius: 1vh;
+}
+.answer_button{
+	padding: 1vh;
+}
+#answer_top{
+	height: 10vh;
+	width: 27vw;
+	text-align: center;
+	font-size: 2vh;
+	padding-top: 3vh;
+	margin-left: 3vw;
+	font-weight: bold;
+}
+#answer_none{
+	height: 10vh;
+}
+#answer_question{
+	height: 10vh;
+	width: 27vw;
+	text-align: center;
+	font-size: 2vh;
+	padding-top: 3vh;
+	margin-left: 2vw;
+	font-weight: bold;
+}
+
+#finish{
+	display: none;
+}
+#finish_message{
+	text-align: center;
+	font-size: 12vw;
+	font-weight: bold;
+	height: 80vh;
+	padding-top: 30vh;
+
+}
+#finish_top{
+	height: 10vh;
+	width: 27vw;
+	text-align: center;
+	font-size: 2vh;
+	padding-top: 3vh;
+	margin-left: 38vw;
+	font-weight: bold;
+}
